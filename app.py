@@ -8,10 +8,10 @@ st.title("Student Performance Prediction System")
 st.write("Predict student final marks using the trained Machine Learning model.")
 
 # Load trained model
-model = joblib.load("student_performance_model.pkl")
+model = joblib.load("Student_performance_model.pkl")
 
 # Load dataset
-df = pd.read_csv("student_data.csv")
+df = pd.read_csv("Student_data.csv")
 
 st.subheader("Student Dataset")
 
